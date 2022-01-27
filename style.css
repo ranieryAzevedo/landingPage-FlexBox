@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Outfit:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: linear-gradient(330deg, rgba(58,95,180,1) 0%, rgba(252,255,120,1) 50%, rgba(69,239,252,1) 100%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    gap: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabecalho img{
+    width: 200px;
+}
+
+.principal{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #ffffffbb;
+    font-family: 'Outfit', sans-serif;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.description{
+    max-width: 450px;
+}
+
+.description h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.description p{
+    text-align: justify;
+}
+
+.section1 img{
+    width: 400px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cultos{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.rodape{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #ffffffbb;
+    font-family: 'Outfit', sans-serif;
+    padding: 40px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+li{
+    padding: 5px;
+}
+
+#instagram{
+    list-style-image: url(images/Insta.png);
+    font-size: 25px;
+}
+
+#facebook{
+    list-style-image: url(images/facebook.png);
+    font-size: 25px;
+}
